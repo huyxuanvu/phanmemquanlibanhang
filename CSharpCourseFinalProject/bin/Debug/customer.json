@@ -1,0 +1,169 @@
+{
+  "customers": [
+    {
+      "customerType": "Khách mua buôn",
+      "point": 1090,
+      "createdTime": "2022-06-27T11:14:50.694826+07:00",
+      "email": "trungdung@xmail.com",
+      "id": "0123654789123",
+      "name": {
+        "first": "Dũng",
+        "last": "Trần",
+        "mid": "Trung"
+      },
+      "birthDate": "2007-08-12T00:00:00",
+      "address": "Hà Nội",
+      "phoneNumber": "0978123456"
+    },
+    {
+      "customerType": "Khách mua lẻ",
+      "point": 180,
+      "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+      "email": "vietluan@xmail.com",
+      "id": "0123654789124",
+      "name": {
+        "first": "Luân",
+        "last": "Lê",
+        "mid": "Viết"
+      },
+      "birthDate": "2007-09-22T00:00:00",
+      "address": "Hải Dương",
+      "phoneNumber": "0972183457"
+    },
+    {
+      "customerType": "Khách mua buôn",
+      "point": 5000,
+      "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+      "email": "thuha@xmail.com",
+      "id": "0123654789125",
+      "name": {
+        "first": "Hà",
+        "last": "Trần",
+        "mid": "Thu"
+      },
+      "birthDate": "2002-01-12T00:00:00",
+      "address": "Đà Nẵng",
+      "phoneNumber": "0978143458"
+    },
+    {
+      "customerType": "Khách mua lẻ",
+      "point": 200,
+      "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+      "email": "batuan@xmail.com",
+      "id": "0123654789126",
+      "name": {
+        "first": "Tuấn",
+        "last": "Lê",
+        "mid": "Bá"
+      },
+      "birthDate": "2000-10-16T00:00:00",
+      "address": "Hồ Chí Minh",
+      "phoneNumber": "0978173459"
+    },
+    {
+      "customerType": "Khách mua buôn",
+      "point": 600,
+      "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+      "email": "anhdunguu@xmail.com",
+      "id": "0123654789120",
+      "name": {
+        "first": "Dũng",
+        "last": "Mai",
+        "mid": "Anh"
+      },
+      "birthDate": "2001-08-19T00:00:00",
+      "address": "Hòa Bình",
+      "phoneNumber": "0978623466"
+    },
+    {
+      "customerType": "Khách mua lẻ",
+      "point": 700,
+      "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+      "email": "quoccong@xmail.com",
+      "id": "0123654789127",
+      "name": {
+        "first": "Công",
+        "last": "Ngô",
+        "mid": "Quốc"
+      },
+      "birthDate": "1996-04-22T00:00:00",
+      "address": "Vũng Tàu",
+      "phoneNumber": "0978123476"
+    },
+    {
+      "customerType": "Khách mua lẻ",
+      "point": 400,
+      "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+      "email": "vanthangha@xmail.com",
+      "id": "0123654789129",
+      "name": {
+        "first": "Thắng",
+        "last": "Hà",
+        "mid": "Văn"
+      },
+      "birthDate": "2000-05-11T00:00:00",
+      "address": "Nghệ An",
+      "phoneNumber": "0978193851"
+    },
+    {
+      "customerType": "Khách mua lẻ",
+      "point": 100,
+      "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+      "email": "thuydungnguyen@xmail.com",
+      "id": "0123654789128",
+      "name": {
+        "first": "Dung",
+        "last": "Nguyễn",
+        "mid": "Thùy"
+      },
+      "birthDate": "2000-09-17T00:00:00",
+      "address": "Thái Bình",
+      "phoneNumber": "0979123450"
+    },
+    {
+      "customerType": "Khách mua buôn",
+      "point": 1000,
+      "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+      "email": "avantamkaka@xmail.com",
+      "id": "0923654789128",
+      "name": {
+        "first": "Tâm",
+        "last": "Khắc",
+        "mid": "Đức"
+      },
+      "birthDate": "2003-01-18T00:00:00",
+      "address": "Bắc Giang",
+      "phoneNumber": "0979123450"
+    },
+    {
+      "customerType": "Khách mua lẻ",
+      "point": 100,
+      "createdTime": "2022-08-01T08:59:35.5972616+07:00",
+      "email": "vanlong@xmail.com",
+      "id": "091646996",
+      "name": {
+        "first": "Long",
+        "last": "Nguyễn",
+        "mid": "Văn"
+      },
+      "birthDate": "1995-08-12T08:58:33",
+      "address": "Thanh Hóa",
+      "phoneNumber": "0912002003"
+    },
+    {
+      "customerType": "Khách mua lẻ",
+      "point": 100,
+      "createdTime": "2022-08-01T09:00:41.5283448+07:00",
+      "email": "linhcute@xmail.com",
+      "id": "09165335624",
+      "name": {
+        "first": "Linh",
+        "last": "Đinh",
+        "mid": "Thùy"
+      },
+      "birthDate": "1998-08-18T08:58:33",
+      "address": "Thái Nguyên",
+      "phoneNumber": "0912002004"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{625520EC-F3AF-44AD-A782-9AF4EE52FA0B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CSharpCourseFinalProject</RootNamespace>
+    <AssemblyName>CSharpCourseFinalProject</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>shopping-bag-_1_.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddEditBillFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditBillFrm.Designer.cs">
+      <DependentUpon>AddEditBillFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditCustomerFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditCustomerFrm.Designer.cs">
+      <DependentUpon>AddEditCustomerFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditDiscountFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditDiscountFrm.Designer.cs">
+      <DependentUpon>AddEditDiscountFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditItemFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditItemFrm.Designer.cs">
+      <DependentUpon>AddEditItemFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeFrm.Designer.cs">
+      <DependentUpon>HomeFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maytinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maytinh.Designer.cs">
+      <DependentUpon>maytinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentFrm.Designer.cs">
+      <DependentUpon>PaymentFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddEditBillFrm.resx">
+      <DependentUpon>AddEditBillFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEditCustomerFrm.resx">
+      <DependentUpon>AddEditCustomerFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEditDiscountFrm.resx">
+      <DependentUpon>AddEditDiscountFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEditItemFrm.resx">
+      <DependentUpon>AddEditItemFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeFrm.resx">
+      <DependentUpon>HomeFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maytinh.resx">
+      <DependentUpon>maytinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentFrm.resx">
+      <DependentUpon>PaymentFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controllers\Controllers.csproj">
+      <Project>{aae7a599-7b9c-4397-997a-57e23ead3dea}</Project>
+      <Name>Controllers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{dc5e4ae7-94cc-4a63-9069-f36c94faa1ec}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Images\add.png" />
+    <Content Include="Images\bill.png" />
+    <Content Include="Images\bin.png" />
+    <Content Include="Images\chart.png" />
+    <Content Include="Images\credit-card.png" />
+    <Content Include="Images\customer.png" />
+    <Content Include="Images\editing.png" />
+    <Content Include="Images\icon.ico" />
+    <Content Include="Images\logout.png" />
+    <Content Include="Images\mobile-payment.png" />
+    <Content Include="Images\refresh.png" />
+    <Content Include="Images\remove.png" />
+    <Content Include="Images\save_file.png" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\search_16.png" />
+    <Content Include="Images\search_24.png" />
+    <Content Include="Images\shopping-bag.png" />
+    <Content Include="Images\stat.png" />
+    <Content Include="Images\tag.png" />
+    <Content Include="shopping-bag-_1_.ico" />
+    <None Include="Resources\9042816_page_search_icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

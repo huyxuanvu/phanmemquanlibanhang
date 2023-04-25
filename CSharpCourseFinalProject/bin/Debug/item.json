@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": 100000,
+      "name": "Iphone 14",
+      "type": "Điện tử",
+      "quantity": 20,
+      "brand": "Apple",
+      "releaseDate": "2022-06-27T11:14:50.6928297+07:00",
+      "price": 28000000,
+      "discount": null
+    },
+    {
+      "id": 100001,
+      "name": "Iphone 14 Pro",
+      "type": "Điện tử",
+      "quantity": 8,
+      "brand": "Apple",
+      "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+      "price": 32000000,
+      "discount": null
+    },
+    {
+      "id": 100002,
+      "name": "Iphone 14 Pro Max",
+      "type": "Điện tử",
+      "quantity": 26,
+      "brand": "Apple",
+      "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+      "price": 35000000,
+      "discount": null
+    },
+    {
+      "id": 100003,
+      "name": "Xà lách",
+      "type": "Thực phẩm",
+      "quantity": 25,
+      "brand": "VGarden",
+      "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+      "price": 20000,
+      "discount": null
+    },
+    {
+      "id": 100004,
+      "name": "Thịt gà",
+      "type": "Thực phẩm",
+      "quantity": 13,
+      "brand": "VGarden",
+      "releaseDate": "2023-06-27T11:14:50",
+      "price": 80000,
+      "discount": null
+    },
+    {
+      "id": 100005,
+      "name": "Mì hảo hảo",
+      "type": "Thực phẩm",
+      "quantity": 300,
+      "brand": "AceCook",
+      "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+      "price": 3500,
+      "discount": null
+    },
+    {
+      "id": 100006,
+      "name": "Xi măng",
+      "type": "Vật liệu xây dựng",
+      "quantity": 1000,
+      "brand": "Thành Thái",
+      "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+      "price": 135000,
+      "discount": null
+    },
+    {
+      "id": 100007,
+      "name": "Quần short",
+      "type": "Thời trang",
+      "quantity": 100,
+      "brand": "Việt Tiến",
+      "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+      "price": 125000,
+      "discount": null
+    },
+    {
+      "id": 100008,
+      "name": "iPhone 15 Pro Max",
+      "type": "Điện tử",
+      "quantity": 96,
+      "brand": "Apple",
+      "releaseDate": "2022-08-01T08:40:37.564605+07:00",
+      "price": 38500000,
+      "discount": null
+    },
+    {
+      "id": 100009,
+      "name": "Loa Bluetooth",
+      "type": "Điện tử",
+      "quantity": 99,
+      "brand": "JBL",
+      "releaseDate": "2022-05-01T09:05:11",
+      "price": 1050000,
+      "discount": null
+    }
+  ]
+}

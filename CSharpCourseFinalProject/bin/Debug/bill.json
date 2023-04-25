@@ -1,0 +1,424 @@
+{
+  "bills": [
+    {
+      "paymentMethod": "Thanh toán chuyển khoản",
+      "staff": "Mai",
+      "billId": 1000000,
+      "cart": {
+        "id": 0,
+        "customer": {
+          "customerType": "Khách mua lẻ",
+          "point": 700,
+          "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+          "email": "quoccong@xmail.com",
+          "id": "0123654789127",
+          "name": {
+            "first": "Công",
+            "last": "Ngô",
+            "mid": "Quốc"
+          },
+          "birthDate": "1996-04-22T00:00:00",
+          "address": "Vũng Tàu",
+          "phoneNumber": "0978123476"
+        },
+        "items": [
+          {
+            "numOfSelectedItem": 3,
+            "pricteAfterDiscount": 35000000,
+            "id": 100002,
+            "name": "Iphone 14 Pro Max",
+            "type": "Điện tử",
+            "quantity": 27,
+            "brand": "Apple",
+            "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+            "price": 35000000,
+            "discount": null
+          }
+        ],
+        "totalItems": 0
+      },
+      "createdTime": "2022-06-09T00:00:00",
+      "totalItem": 3,
+      "subTotal": 105000000,
+      "totalDiscountAmount": 0,
+      "totalAmount": 105000000,
+      "status": "Đã thanh toán"
+    },
+    {
+      "paymentMethod": "Thanh toán tiền mặt",
+      "staff": "Mai",
+      "billId": 1000001,
+      "cart": {
+        "id": 0,
+        "customer": {
+          "customerType": "Khách mua lẻ",
+          "point": 200,
+          "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+          "email": "batuan@xmail.com",
+          "id": "0123654789126",
+          "name": {
+            "first": "Tuấn",
+            "last": "Lê",
+            "mid": "Bá"
+          },
+          "birthDate": "2000-10-16T00:00:00",
+          "address": "Hồ Chí Minh",
+          "phoneNumber": "0978173459"
+        },
+        "items": [
+          {
+            "numOfSelectedItem": 3,
+            "pricteAfterDiscount": 80000,
+            "id": 100004,
+            "name": "Thịt gà",
+            "type": "Thực phẩm",
+            "quantity": 17,
+            "brand": "VGarden",
+            "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+            "price": 80000,
+            "discount": null
+          }
+        ],
+        "totalItems": 0
+      },
+      "createdTime": "2022-06-27T11:17:40.6113606+07:00",
+      "totalItem": 3,
+      "subTotal": 240000,
+      "totalDiscountAmount": 0,
+      "totalAmount": 240000,
+      "status": "Đã thanh toán"
+    },
+    {
+      "paymentMethod": "Thanh toán chuyển khoản",
+      "staff": "Loan",
+      "billId": 1000002,
+      "cart": {
+        "id": 0,
+        "customer": {
+          "customerType": "Khách mua lẻ",
+          "point": 100,
+          "createdTime": "2022-08-01T09:00:41.5283448+07:00",
+          "email": "linhcute@xmail.com",
+          "id": "09165335624",
+          "name": {
+            "first": "Linh",
+            "last": "Đinh",
+            "mid": "Thùy"
+          },
+          "birthDate": "1998-08-18T08:58:33",
+          "address": "Thái Nguyên",
+          "phoneNumber": "0912002004"
+        },
+        "items": [
+          {
+            "numOfSelectedItem": 2,
+            "pricteAfterDiscount": 32000000,
+            "id": 100001,
+            "name": "Iphone 14 Pro",
+            "type": "Điện tử",
+            "quantity": 8,
+            "brand": "Apple",
+            "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+            "price": 32000000,
+            "discount": null
+          }
+        ],
+        "totalItems": 0
+      },
+      "createdTime": "2022-08-01T09:03:59.9972446+07:00",
+      "totalItem": 2,
+      "subTotal": 64000000,
+      "totalDiscountAmount": 0,
+      "totalAmount": 64000000,
+      "status": "Đã thanh toán"
+    },
+    {
+      "paymentMethod": "Thanh toán tiền mặt",
+      "staff": "Minh",
+      "billId": 1000003,
+      "cart": {
+        "id": 0,
+        "customer": {
+          "customerType": "Khách mua lẻ",
+          "point": 180,
+          "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+          "email": "vietluan@xmail.com",
+          "id": "0123654789124",
+          "name": {
+            "first": "Luân",
+            "last": "Lê",
+            "mid": "Viết"
+          },
+          "birthDate": "2007-09-22T00:00:00",
+          "address": "Hải Dương",
+          "phoneNumber": "0972183457"
+        },
+        "items": [
+          {
+            "numOfSelectedItem": 3,
+            "pricteAfterDiscount": 80000,
+            "id": 100004,
+            "name": "Thịt gà",
+            "type": "Thực phẩm",
+            "quantity": 14,
+            "brand": "VGarden",
+            "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+            "price": 80000,
+            "discount": null
+          }
+        ],
+        "totalItems": 0
+      },
+      "createdTime": "2022-07-01T00:00:00",
+      "totalItem": 3,
+      "subTotal": 240000,
+      "totalDiscountAmount": 0,
+      "totalAmount": 240000,
+      "status": "Đã thanh toán"
+    },
+    {
+      "paymentMethod": "Thanh toán tiền mặt",
+      "staff": "Khánh",
+      "billId": 1000004,
+      "cart": {
+        "id": 0,
+        "customer": {
+          "customerType": "Khách mua lẻ",
+          "point": 700,
+          "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+          "email": "quoccong@xmail.com",
+          "id": "0123654789127",
+          "name": {
+            "first": "Công",
+            "last": "Ngô",
+            "mid": "Quốc"
+          },
+          "birthDate": "1996-04-22T00:00:00",
+          "address": "Vũng Tàu",
+          "phoneNumber": "0978123476"
+        },
+        "items": [
+          {
+            "numOfSelectedItem": 5,
+            "pricteAfterDiscount": 20000,
+            "id": 100003,
+            "name": "Xà lách",
+            "type": "Thực phẩm",
+            "quantity": 25,
+            "brand": "VGarden",
+            "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+            "price": 20000,
+            "discount": null
+          },
+          {
+            "numOfSelectedItem": 1,
+            "pricteAfterDiscount": 80000,
+            "id": 100004,
+            "name": "Thịt gà",
+            "type": "Thực phẩm",
+            "quantity": 13,
+            "brand": "VGarden",
+            "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+            "price": 80000,
+            "discount": null
+          }
+        ],
+        "totalItems": 0
+      },
+      "createdTime": "2022-07-09T10:20:00",
+      "totalItem": 6,
+      "subTotal": 180000,
+      "totalDiscountAmount": 0,
+      "totalAmount": 180000,
+      "status": "Đã thanh toán"
+    },
+    {
+      "paymentMethod": "Thanh toán chuyển khoản",
+      "staff": "Hải",
+      "billId": 1000005,
+      "cart": {
+        "id": 0,
+        "customer": {
+          "customerType": "Khách mua buôn",
+          "point": 1000,
+          "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+          "email": "avantamkaka@xmail.com",
+          "id": "0923654789128",
+          "name": {
+            "first": "Tâm",
+            "last": "Khắc",
+            "mid": "Đức"
+          },
+          "birthDate": "2003-01-18T00:00:00",
+          "address": "Bắc Giang",
+          "phoneNumber": "0979123450"
+        },
+        "items": [
+          {
+            "numOfSelectedItem": 3,
+            "pricteAfterDiscount": 38500000,
+            "id": 100008,
+            "name": "iPhone 15 Pro Max",
+            "type": "Điện tử",
+            "quantity": 97,
+            "brand": "Apple",
+            "releaseDate": "2022-08-01T08:40:37.564605+07:00",
+            "price": 38500000,
+            "discount": null
+          }
+        ],
+        "totalItems": 0
+      },
+      "createdTime": "2022-08-01T09:04:39.5078634+07:00",
+      "totalItem": 3,
+      "subTotal": 115500000,
+      "totalDiscountAmount": 0,
+      "totalAmount": 115500000,
+      "status": "Đã thanh toán"
+    },
+    {
+      "paymentMethod": "Thanh toán chuyển khoản",
+      "staff": "Hoa",
+      "billId": 1000006,
+      "cart": {
+        "id": 0,
+        "customer": {
+          "customerType": "Khách mua lẻ",
+          "point": 400,
+          "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+          "email": "vanthangha@xmail.com",
+          "id": "0123654789129",
+          "name": {
+            "first": "Thắng",
+            "last": "Hà",
+            "mid": "Văn"
+          },
+          "birthDate": "2000-05-11T00:00:00",
+          "address": "Nghệ An",
+          "phoneNumber": "0978193851"
+        },
+        "items": [
+          {
+            "numOfSelectedItem": 1,
+            "pricteAfterDiscount": 4050000,
+            "id": 100010,
+            "name": "Máy hút bụi X550",
+            "type": "Điện tử",
+            "quantity": 99,
+            "brand": "Xiaomi",
+            "releaseDate": "2022-05-04T09:05:11",
+            "price": 4050000,
+            "discount": null
+          },
+          {
+            "numOfSelectedItem": 1,
+            "pricteAfterDiscount": 1050000,
+            "id": 100009,
+            "name": "Loa Bluetooth",
+            "type": "Điện tử",
+            "quantity": 99,
+            "brand": "JBL",
+            "releaseDate": "2022-05-01T09:05:11",
+            "price": 1050000,
+            "discount": null
+          }
+        ],
+        "totalItems": 0
+      },
+      "createdTime": "2022-08-01T14:30:35.5021842+07:00",
+      "totalItem": 2,
+      "subTotal": 5100000,
+      "totalDiscountAmount": 0,
+      "totalAmount": 5100000,
+      "status": "Đã thanh toán"
+    },
+    {
+      "paymentMethod": "Thanh toán chuyển khoản",
+      "staff": "Nam",
+      "billId": 1000007,
+      "cart": {
+        "id": 0,
+        "customer": {
+          "customerType": "Khách mua lẻ",
+          "point": 100,
+          "createdTime": "2022-08-01T08:59:35.5972616+07:00",
+          "email": "vanlong@xmail.com",
+          "id": "091646996",
+          "name": {
+            "first": "Long",
+            "last": "Nguyễn",
+            "mid": "Văn"
+          },
+          "birthDate": "1995-08-12T08:58:33",
+          "address": "Thanh Hóa",
+          "phoneNumber": "0912002003"
+        },
+        "items": [
+          {
+            "numOfSelectedItem": 1,
+            "pricteAfterDiscount": 35000000,
+            "id": 100002,
+            "name": "Iphone 14 Pro Max",
+            "type": "Điện tử",
+            "quantity": 26,
+            "brand": "Apple",
+            "releaseDate": "2022-06-27T11:14:50.6938292+07:00",
+            "price": 35000000,
+            "discount": null
+          }
+        ],
+        "totalItems": 0
+      },
+      "createdTime": "2022-08-01T14:30:05.1574818+07:00",
+      "totalItem": 1,
+      "subTotal": 35000000,
+      "totalDiscountAmount": 0,
+      "totalAmount": 35000000,
+      "status": "Đã thanh toán"
+    },
+    {
+      "paymentMethod": "Thanh toán chuyển khoản",
+      "staff": "Nam",
+      "billId": 1000008,
+      "cart": {
+        "id": 0,
+        "customer": {
+          "customerType": "Khách mua buôn",
+          "point": 1000,
+          "createdTime": "2022-06-27T11:14:50.6958232+07:00",
+          "email": "avantamkaka@xmail.com",
+          "id": "0923654789128",
+          "name": {
+            "first": "Tâm",
+            "last": "Khắc",
+            "mid": "Đức"
+          },
+          "birthDate": "2003-01-18T00:00:00",
+          "address": "Bắc Giang",
+          "phoneNumber": "0979123450"
+        },
+        "items": [
+          {
+            "numOfSelectedItem": 1,
+            "pricteAfterDiscount": 38500000,
+            "id": 100008,
+            "name": "iPhone 15 Pro Max",
+            "type": "Điện tử",
+            "quantity": 96,
+            "brand": "Apple",
+            "releaseDate": "2022-08-01T08:40:37.564605+07:00",
+            "price": 38500000,
+            "discount": null
+          }
+        ],
+        "totalItems": 0
+      },
+      "createdTime": "2022-08-01T14:29:44.3438181+07:00",
+      "totalItem": 1,
+      "subTotal": 38500000,
+      "totalDiscountAmount": 0,
+      "totalAmount": 38500000,
+      "status": "Đã thanh toán"
+    }
+  ]
+}
